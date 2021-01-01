@@ -20,7 +20,7 @@
         <li><a href="contacts">Контакты</a></li>
       </ul>
       <ul>
-        <li><button type="button">Войти</button></li>
+        <li><a href="login.html">Войти</a></li>
       </ul>
     </nav>
   </header>
@@ -92,7 +92,25 @@
     <section>
       <h2>Записаться</h2>
       <p>Укажите желаемую дату и мы свяжемся с вами для подтверждения брони</p>
-      <!--Здесь будет форма-->
+      <form method="post">
+        <p>
+          <label for="appointable-date">Дата</label>
+          <input type="date" id="appointable-date" name="date" value="2020-12-01">
+        </p>
+        <p>
+          <label for="appointable-time">Время</label>
+          <input type="time" id="appointable-time" name="time" value="13:00">
+        </p>
+        <p>
+          <label for="appointable-name">Имя</label>
+          <input type="text" id="appointable-name" name="name" value="" placeholder="Борода">
+        </p>
+        <p>
+          <label for="appointable-phone">Телефон</label>
+          <input type="tel" id="appointable-phone" name="phone" value="" placeholder="+7 987 654-32-10">
+        </p>
+        <button type="submit">Отправить</button>
+      </form>
     </section>
   </main>
   <footer>
@@ -113,12 +131,33 @@
   <section>
     <h2>Личный кабинет</h2>
     <p>Введите пожалуйста свой логин и пароль</p>
-    <!--Здесь будет форма-->
+    <form>
+      <p>
+        <label for="user-login">Логин</label>
+        <input id="user-login" name="login" placeholder="email@example.com">
+      </p>
+      <p>
+        <label for="user-password">Пароль</label>
+        <input id="user-password" name="password" placeholder="••••••••">
+      </p>
+      <p>
+        <label>
+          <input type="checkbox" name="remember">
+          Запомните меня
+        </label>
+        <a href="#">Я забыл пароль!</a>
+      </p>
+      <button type="submit">Войти</button>
+    </form>
     <button type="button">Закрыть</button>
   </section>
 
   <section>
     <h2>Как нас найти</h2>
+    <p>
+      <img src="img/map.jpg" width="780" height="560"
+        alt="Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8">
+    </p>
     <button type="button">Закрыть</button>
   </section>
 </body>
