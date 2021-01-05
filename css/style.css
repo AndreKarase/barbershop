@@ -1,0 +1,186 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+
+  background-color: #000000;
+  background-image: url("../img/bg.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button {
+  font: inherit;
+
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+
+  background-color: black;
+  border: none;
+}
+
+.button:focus,
+.button:active,
+.button:hover {
+  background-color: #663d15
+}
+
+.main-navigation {
+  font-size: 16px;
+  line-height: 20px;
+  color: white;
+
+  background-color: black;
+}
+
+.user-navigation,
+.site-navigation {
+  list-style: none;
+}
+
+.user-navigation a,
+.site-navigation a {
+  color: white;
+}
+
+.user-navigation a:focus,
+.user-navigation a:hover,
+.site-navigation a:focus,
+.site-navigation a:hover {
+  background-color: #242424
+}
+
+.feature-list {
+  list-style: none;
+}
+
+.feature-item {
+  text-align: center;
+}
+
+.feature-item h3 {
+  font-size: 30px;
+  line-height: 42px;
+}
+
+.index-columns {
+  color: black;
+
+  background-color: #f8f5f2;
+  background-image: url("../img/pattern-light.jpg");
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+.index-columns h2 {
+  font-size: 30px;
+  line-height: 42px;
+}
+
+.news-list {
+  list-style: none;
+}
+
+.news-item time {
+  text-transform: none;
+}
+
+.galery-content {
+  background-color: #cccccc;
+  border: 7px solid white;
+}
+
+.appointment-item input {
+  font: inherit;
+
+  background-color: transparent;
+  border: 2px solid black;
+}
+
+.appointment-item input:focus {
+  border-color: #663d15;
+}
+
+.main-footer {
+  background-color: #212121;
+  background-image: url("../img/pattern-dark.jpg");
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+.main-footer a {
+  color: white;
+  text-decoration: underline;
+}
+
+.main-footer a:focus,
+.main-footer a:hover {
+  text-decoration: none;
+}
+
+.footer-socials {
+  text-align: center;
+}
+
+.footer-socials ul {
+  list-style: none;
+}
+
+.social-button {
+  color: white;
+}
+
+.modal {
+  color: black;
+
+  background-color: #f9f6f3;
+  background-image: url("../img/pattern-light.jpg");
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+.modal h2 {
+  font-size: 30px;
+  line-height: 42px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  font: inherit;
+  color: black;
+  text-transform: uppercase;
+
+  border: 2px solid black;
+  background-color: #f9f6f3;
+}
+
+.login-form input:focus {
+  border-color: #663d15;
+}
+
+.login-checkbox:focus,
+.login-checkbox:hover {
+  border-color: #663d15;
+}
+
+.restore {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.restore:focus,
+.restore:hover {
+  text-decoration: none;
+}
