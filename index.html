@@ -10,28 +10,32 @@
   <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-  <header>
+  <header class="main-header">
     <nav class="main-navigation">
-      <a>
+      <a class="main-header-logo">
         <img src="img/index-logo.svg" width="368" height="100"
         alt="Логотип барбершопа 'Бородинский'"/>
       </a>
-      <ul class="site-navigation">
-        <li><a href="info.html">Информация</a></li>
-        <li><a href="news.html">Новости</a></li>
-        <li><a href="price.html">Прайс-лист</a></li>
-        <li><a href="catalog.html">Магазин</a></li>
-        <li><a href="contacts">Контакты</a></li>
-      </ul>
-      <ul class="user-navigation">
-        <li><a href="login.html">Войти</a></li>
-      </ul>
+      <div class="main-navigation-wrapper">
+        <div class="container">
+          <ul class="site-navigation">
+            <li><a href="info.html">Информация</a></li>
+            <li><a href="news.html">Новости</a></li>
+            <li><a href="price.html">Прайс-лист</a></li>
+            <li><a href="catalog.html">Магазин</a></li>
+            <li><a href="contacts">Контакты</a></li>
+          </ul>
+          <ul class="user-navigation">
+            <li><a href="login.html">Войти</a></li>
+          </ul>
+        </div>
+      </div>
     </nav>
   </header>
-  <main>
+  <main class="container">
     <h1>Барбаршоп "Бородинский"</h1>
 
-    <section>
+    <section class="features">
       <h2>Преимущества</h2>
       <ul class="feature-list">
         <li class="feature-item">
@@ -54,7 +58,7 @@
     </section>
 
     <div class="index-columns">
-      <section>
+      <section class="news">
         <h2>Новости</h2>
         <ul class="news-list">
           <li class="news-item">
@@ -71,7 +75,7 @@
         <a class="button" href="news.html">Все новости</a>
       </section>
 
-      <section>
+      <section class="galery">
         <h2>Фотогалерея</h2>
         <figure class="galery-content">
           <a href="#">
@@ -84,7 +88,7 @@
     </div>
     
     <div class="index-columns">
-      <section>
+      <section class="contacts">
         <h2>Контактная информация</h2>
         <p>Барбаршоп "Бородинский"<br>
         Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
@@ -123,19 +127,22 @@
     
   </main>
   <footer class="main-footer">
-    <p class="footer-contacts">Барбаршоп "Бородинский"<br>
-      Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
-      <a href="map.html">Как нас найти</a><br>
-      Телефон: +7 (495) 666-02-66
-    </p>
-    <div class="footer-socials">
-      <p>Давайте дружить!</p>
-      <ul>
-        <li><a class="social-button" href="#">Вконтакте</a></li>
-        <li><a class="social-button" href="#">Фейсбук</a></li>
-        <li><a class="social-button" href="#">Инстаграм</a></li>
-      </ul>
+    <div class="container">
+      <p class="footer-contacts">Барбаршоп "Бородинский"<br>
+        Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+        <a href="map.html">Как нас найти</a><br>
+        Телефон: +7 (495) 666-02-66
+      </p>
+      <div class="footer-socials">
+        <p>Давайте дружить!</p>
+        <ul>
+          <li><a class="social-button" href="#">Вконтакте</a></li>
+          <li><a class="social-button" href="#">Фейсбук</a></li>
+          <li><a class="social-button" href="#">Инстаграм</a></li>
+        </ul>
+      </div>
     </div>
+    
   </footer>
 
   <section class="modal modal-form">

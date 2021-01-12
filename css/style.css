@@ -19,6 +19,12 @@ a {
   text-decoration: none;
 }
 
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
 .button {
   font: inherit;
 
@@ -37,17 +43,54 @@ a {
   background-color: #663d15
 }
 
+.main-header {
+  margin-bottom: 75px;
+}
+
 .main-navigation {
   font-size: 16px;
   line-height: 20px;
   color: white;
 
   background-color: black;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-header-logo {
+  order: 2;
+  width: 368px;
+  height: 153px;
+}
+
+.main-navigation-wrapper {
+  width: 100%;
+  margin-bottom: 60px;
+
+  background-color: black;
+}
+
+.main-navigation-wrapper .container {
+  display: flex;
+  justify-content: space-between;
 }
 
 .user-navigation,
 .site-navigation {
+  padding: 0;
+  margin: 0;
+
   list-style: none;
+}
+
+.site-navigation {
+  width: 620px;
+}
+
+.user-navigation {
+  width: 140px;
 }
 
 .user-navigation a,
@@ -62,11 +105,22 @@ a {
   background-color: #242424
 }
 
+.features {
+  margin-bottom: 80px;
+}
+
 .feature-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+
   list-style: none;
 }
 
 .feature-item {
+  width: 300px;
+
   text-align: center;
 }
 
@@ -76,6 +130,11 @@ a {
 }
 
 .index-columns {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 35px;
+  padding: 50px 80px;
+
   color: black;
 
   background-color: #f8f5f2;
@@ -89,6 +148,10 @@ a {
   line-height: 42px;
 }
 
+.news {
+  width: 380px;
+}
+
 .news-list {
   list-style: none;
 }
@@ -97,9 +160,21 @@ a {
   text-transform: none;
 }
 
+.galery {
+  width: 300px;
+}
+
 .galery-content {
   background-color: #cccccc;
   border: 7px solid white;
+}
+
+.contacts {
+  width: 380px;
+}
+
+.appointment {
+  width: 300px;
 }
 
 .appointment-item input {
@@ -121,6 +196,7 @@ a {
 }
 
 .main-footer a {
+  margin-top: 65px;
   color: white;
   text-decoration: underline;
 }
@@ -130,7 +206,17 @@ a {
   text-decoration: none;
 }
 
+.main-footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-contacts {
+  width: 320px;
+}
+
 .footer-socials {
+  width: 145px;
   text-align: center;
 }
 
